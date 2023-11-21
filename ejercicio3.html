@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form action="ejercicio3-3.php" method="post">
+        <p>Introduzca su nombre: </p><input type="text" name="nombre"><br>
+        <p>Introduzca su telefono: </p><input type="num" name="telefono"><br>
+        <p>Matriculado: </p><input type="checkbox" name="matriculado"><br>
+        <p>Mostrar datos: </p>
+        <select id="opciones" name="opciones">
+            <option value="pantalla">Por pantalla</option>
+            <option value="archivo">En Archivo datos.txt</option>
+        </select>
+        <p>Enseñanza</p><input type="radio" value ="Secundaria" name="enseñanza">Secundaria
+        <input type="radio" value ="Bachillerato" name="enseñanza">Bachillerato
+        <input type="radio" value ="Ciclo Medio" name="enseñanza">Ciclo Medio
+        <input type="radio" value ="Ciclo Superior" name="enseñanza">Ciclo Superior
+        <br><br>
+        <input type="submit" value="Enviar">
+        
+    </form>
+</body>
+</html>
